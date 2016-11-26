@@ -4,3 +4,9 @@ I created several content management systems in the past, but this is the most m
 I use it to create my [personal website](http://curious-electric.com).
 
 I stumbled upon this [HN thread](https://news.ycombinator.com/item?id=13009080) and realized it might be useful for other people, too.
+
+# Installation
+
+You need Python 2.7x installed. Just download or clone it, and change the files in 'input' accordingly.
+
+Then run ```doit.sh```.
