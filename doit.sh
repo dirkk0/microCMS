@@ -8,4 +8,4 @@ python generator.py input/job.md styles.css output/job.html
 python generator.py input/talks.md styles.css output/talks.html
 python generator.py input/misc.md styles.css output/misc.html
 
-./do_ftp.sh
+# ./do_ftp.sh
