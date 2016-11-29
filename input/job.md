@@ -11,4 +11,4 @@ Technosophical Consultant.
 
 # Open Source projects at pixelpark.
 - [PPnet](https://github.com/pixelpark/ppnet)
-- WebGL Cardboard Boilerplate (https://github.com/pixelpark/webgl-cardboard-boilerplate)
+- [WebGL Cardboard Boilerplate](https://github.com/pixelpark/webgl-cardboard-boilerplate)

@@ -26,7 +26,8 @@ output += """
 """
 mkin = open(sys.argv[1])
 output += markdown2.markdown(mkin.read(), extras=["markdown-in-html"])
-mkin = open("input/footer.md")
+
+mkin = open("input/footer.html")
 output += markdown2.markdown(mkin.read().replace("#TIMESTAMP", time.asctime()))
 
 output += """</div></div></div>

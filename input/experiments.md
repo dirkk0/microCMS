@@ -7,7 +7,7 @@
 
 [Multi-device Demo](https://www.youtube.com/watch?v=LT1zlUX5kDI)
 
-[Oculus Rift + Leap Motion](Rift + Leap Motion: https://goo.gl/photos/umyn6ZHHX1WwqahUA)
+[Oculus Rift + Leap Motion](https://goo.gl/photos/umyn6ZHHX1WwqahUA) (Reference: [World Builder](https://www.youtube.com/watch?v=QP3YywgRx5A))
 
 [FPS0](https://www.youtube.com/watch?v=xlga8EcsLqI) ([Github]( http://dirkk0.github.com/fps0/))
 
