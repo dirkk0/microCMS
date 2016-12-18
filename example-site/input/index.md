@@ -1,5 +1,5 @@
 
-# Curious Electric
+# EXAMPLE SITE
 
 Personal home page of **Dirk Krause**.
 
