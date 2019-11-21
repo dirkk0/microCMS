@@ -18,6 +18,7 @@ def generate(file_in, file_out, folder_templates):
  
     output += open(os.path.join(folder_templates, "footer.html")).read()
     output += markdown2.markdown(mkin.read().replace("#TIMESTAMP", time.asctime()))
+    output = output.replace("#TIMESTAMP", time.asctime())
 
     outfile = open(file_out, 'w')
     outfile.write(output)
