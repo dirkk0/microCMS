@@ -29,7 +29,8 @@ def generate(file_in, file_out, folder_templates):
 from distutils.dir_util import copy_tree
 
 # copy assets from both site and templates
-copy_tree(os.path.join(SITE, "templates", "assets"), os.path.join(SITE, "output", "assets"))
+if os.path.exists(os.path.join(SITE, "templates", "assets")):
+    copy_tree(os.path.join(SITE, "templates", "assets"), os.path.join(SITE, "output", "assets"))
 copy_tree(os.path.join(SITE, "input", "assets"), os.path.join(SITE, "output", "assets"))
 
 for file in os.listdir(os.path.join(SITE, "input")):
