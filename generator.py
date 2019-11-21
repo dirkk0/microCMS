@@ -29,14 +29,14 @@ def generate(file_in, file_out, folder_templates):
 from distutils.dir_util import copy_tree
 
 # copy assets from both site and templates
-if os.path.exists(os.path.join(SITE, "templates", "assets")):
-    copy_tree(os.path.join(SITE, "templates", "assets"), os.path.join(SITE, "output", "assets"))
+if os.path.exists(os.path.join(SITE, "templates2", "assets")):
+    copy_tree(os.path.join(SITE, "templates2", "assets"), os.path.join(SITE, "output", "assets"))
 copy_tree(os.path.join(SITE, "input", "assets"), os.path.join(SITE, "output", "assets"))
 
 for file in os.listdir(os.path.join(SITE, "input")):
     if file.endswith(".md"):
         file_in = os.path.join(SITE, "input", file)
         file_out = os.path.join(SITE, "output", file[:-3] + ".html")
-        folder_templates = os.path.join(SITE, "templates")
+        folder_templates = os.path.join(SITE, "templates2")
         print(file_in, file_out, folder_templates)
         generate(file_in, file_out, folder_templates)
