@@ -1,3 +1,6 @@
+Not used anymore, I switched to HUGO.
+
+
 # microCMS
 
 I created several content management systems in the past, but this is the most minimal one and pain free that I could come up with.
